@@ -1,0 +1,18 @@
+#[hash-amzn]
+#name=hash User's Repo
+#baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/amzn-main/
+#enabled=1
+##gpgkey=file:///root/RPM-GPG-KEY-hash
+###gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/RPM-GPG-KEY-joeuser
+#gpgcheck=1
+
+[hash-epel]
+metadata_expire=20
+autorefresh=1
+name=My S3 yum repository - $basearch
+gpgcheck=1
+enabled=1
+#baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/epel/$basearch/
+baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/epel/
+humanname=My S3 yum repository - $basearch
+#gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/RPM-GPG-KEY-hash
