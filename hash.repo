@@ -16,3 +16,47 @@ enabled=1
 baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/epel/
 humanname=My S3 yum repository - $basearch
 #gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/RPM-GPG-KEY-hash
+
+[hash-centos-updates]
+metadata_expire=20
+autorefresh=1
+name=My S3 yum repository - $basearch
+gpgcheck=1
+enabled=1
+#baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/updates/$basearch/
+baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/updates/
+humanname=My S3 yum repository - $basearch
+gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/RPM-GPG-KEY-hash
+
+[hash-centos-base]
+metadata_expire=20
+autorefresh=1
+name=My S3 yum repository - $basearch
+gpgcheck=1
+enabled=1
+#baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/base/$basearch/
+baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/base/
+humanname=My S3 yum repository - $basearch
+gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/RPM-GPG-KEY-hash
+
+[hash-elrepo]
+metadata_expire=20
+autorefresh=1
+name=My S3 yum repository - $basearch
+gpgcheck=1
+enabled=1
+#baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/elrepo/$basearch/
+baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/elrepo/
+humanname=My S3 yum repository - $basearch
+gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/RPM-GPG-KEY-hash
+
+[hash-elrepo-kernel]
+metadata_expire=20
+autorefresh=1
+name=My S3 yum repository - $basearch
+gpgcheck=1
+enabled=1
+#baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/elrepo-kernel/$basearch/
+baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/elrepo-kernel/
+humanname=My S3 yum repository - $basearch
+gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/RPM-GPG-KEY-hash
