@@ -15,4 +15,4 @@ enabled=1
 #baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/epel/$basearch/
 baseurl=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/epel/
 humanname=My S3 yum repository - $basearch
-#gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/RPM-GPG-KEY-hash
+#gpgkey=http://opensourcehash.s3-website-ap-southeast-1.amazonaws.com/rpm/RPM-GPG-KEY-hash
